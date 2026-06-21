@@ -19,21 +19,36 @@ msgstr ""
 "X-Crowdin-File-ID: 27\n"
 
 #. js-lingui-explicit-id
+#: src/emails/server-admin-access-changed.email.tsx
+msgid "Enabled"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/emails/server-admin-access-changed.email.tsx
+msgid "Disabled"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/emails/server-admin-access-changed.email.tsx
+msgid "Server administrator access changed"
+msgstr ""
+
+#. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
 msgid "Suspended Workspace"
 msgstr "Spațiu de lucru suspendat"
 
 #. js-lingui-explicit-id
-#: src/emails/warn-suspended-workspace.email.tsx
-#: src/emails/password-update-notify.email.tsx
 #: src/emails/clean-suspended-workspace.email.tsx
+#: src/emails/password-update-notify.email.tsx
+#: src/emails/warn-suspended-workspace.email.tsx
 msgid "Dear {userName},"
 msgstr "Dragă {userName},"
 
 #. js-lingui-explicit-id
-#: src/emails/warn-suspended-workspace.email.tsx
-#: src/emails/password-update-notify.email.tsx
 #: src/emails/clean-suspended-workspace.email.tsx
+#: src/emails/password-update-notify.email.tsx
+#: src/emails/warn-suspended-workspace.email.tsx
 msgid "Hello,"
 msgstr "Salut,"
 
@@ -89,46 +104,6 @@ msgid "Accept invite"
 msgstr "Acceptați invitația"
 
 #. js-lingui-explicit-id
-#: src/emails/send-email-verification-link.email.tsx
-msgid "Confirm your new email address"
-msgstr ""
-
-#. js-lingui-explicit-id
-#: src/emails/send-email-verification-link.email.tsx
-msgid "Confirm your email address"
-msgstr "Confirmați adresa de email"
-
-#. js-lingui-explicit-id
-#: src/emails/send-email-verification-link.email.tsx
-msgid "Confirm new email"
-msgstr ""
-
-#. js-lingui-explicit-id
-#: src/emails/send-email-verification-link.email.tsx
-msgid "Verify Email"
-msgstr "Verificați Email"
-
-#. js-lingui-explicit-id
-#: src/emails/password-update-notify.email.tsx
-msgid "Password updated"
-msgstr "Parola a fost actualizată"
-
-#. js-lingui-explicit-id
-#: src/emails/password-update-notify.email.tsx
-msgid "This is a confirmation that password for your account ({email}) was successfully changed on {formattedDate}."
-msgstr "Aceasta este o confirmare că parola contului dvs. ({email}) a fost schimbată cu succes la data de {formattedDate}."
-
-#. js-lingui-explicit-id
-#: src/emails/password-update-notify.email.tsx
-msgid "If you did not initiate this change, please contact your workspace owner immediately."
-msgstr "Dacă nu ați inițiat această schimbare, vă rugăm să contactați imediat proprietarul spațiului de lucru."
-
-#. js-lingui-explicit-id
-#: src/emails/password-update-notify.email.tsx
-msgid "Connect to Twenty"
-msgstr "Conectați-vă la Twenty"
-
-#. js-lingui-explicit-id
 #: src/emails/password-reset-link.email.tsx
 msgid "Reset your password 🗝"
 msgstr "Resetați-vă parola 🗝"
@@ -154,6 +129,56 @@ msgid "This link is only valid for the next {duration}. If the link does not wor
 msgstr "Acest link este valabil doar pentru următoarele {duration}. Dacă linkul nu funcționează, puteți folosi direct linkul de verificare a autentificării:"
 
 #. js-lingui-explicit-id
+#: src/emails/password-update-notify.email.tsx
+msgid "Password updated"
+msgstr "Parola a fost actualizată"
+
+#. js-lingui-explicit-id
+#: src/emails/password-update-notify.email.tsx
+msgid "This is a confirmation that password for your account ({email}) was successfully changed on {formattedDate}."
+msgstr "Aceasta este o confirmare că parola contului dvs. ({email}) a fost schimbată cu succes la data de {formattedDate}."
+
+#. js-lingui-explicit-id
+#: src/emails/password-update-notify.email.tsx
+msgid "If you did not initiate this change, please contact your workspace owner immediately."
+msgstr "Dacă nu ați inițiat această schimbare, vă rugăm să contactați imediat proprietarul spațiului de lucru."
+
+#. js-lingui-explicit-id
+#: src/emails/password-update-notify.email.tsx
+msgid "Connect to Twenty"
+msgstr "Conectați-vă la Twenty"
+
+#. js-lingui-explicit-id
+#: src/emails/send-email-verification-link.email.tsx
+msgid "Confirm your new email address"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/emails/send-email-verification-link.email.tsx
+msgid "Confirm your email address"
+msgstr "Confirmați adresa de email"
+
+#. js-lingui-explicit-id
+#: src/emails/send-email-verification-link.email.tsx
+msgid "Confirm new email"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/emails/send-email-verification-link.email.tsx
+msgid "Verify Email"
+msgstr "Verificați Email"
+
+#. js-lingui-explicit-id
+#: src/components/WhatIsTwenty.tsx
+msgid "What is Twenty?"
+msgstr "Ce este Twenty?"
+
+#. js-lingui-explicit-id
+#: src/components/WhatIsTwenty.tsx
+msgid "It's a CRM, a software to help businesses manage their customer data and relationships efficiently."
+msgstr "Este un CRM, un software care ajută companiile să își gestioneze eficient datele și relațiile cu clienții."
+
+#. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
 msgid "Deleted Workspace"
 msgstr "Spațiu de lucru șters"
@@ -177,16 +202,6 @@ msgstr "Dacă doriți să folosiți din nou Twenty, puteți crea un spațiu de l
 #: src/emails/clean-suspended-workspace.email.tsx
 msgid "Create a new workspace"
 msgstr "Creează un nou spațiu de lucru"
-
-#. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
-msgid "What is Twenty?"
-msgstr "Ce este Twenty?"
-
-#. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
-msgid "It's a CRM, a software to help businesses manage their customer data and relationships efficiently."
-msgstr "Este un CRM, un software care ajută companiile să își gestioneze eficient datele și relațiile cu clienții."
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
@@ -237,3 +252,23 @@ msgstr "Twenty.com, Corporație de Beneficiu Public"
 #: src/components/Footer.tsx
 msgid "San Francisco / Paris"
 msgstr "San Francisco / Paris"
+
+#. js-lingui-explicit-id
+#: src/emails/server-admin-access-changed.email.tsx
+msgid "serverAdminAccessChanged.summary"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/emails/server-admin-access-changed.email.tsx
+msgid "serverAdminAccessChanged.fullAdmin"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/emails/server-admin-access-changed.email.tsx
+msgid "serverAdminAccessChanged.warning"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/emails/server-admin-access-changed.email.tsx
+msgid "serverAdminAccessChanged.impersonation"
+msgstr ""

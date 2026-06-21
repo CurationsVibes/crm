@@ -14,21 +14,36 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. js-lingui-explicit-id
+#: src/emails/server-admin-access-changed.email.tsx
+msgid "Enabled"
+msgstr "Enabled"
+
+#. js-lingui-explicit-id
+#: src/emails/server-admin-access-changed.email.tsx
+msgid "Disabled"
+msgstr "Disabled"
+
+#. js-lingui-explicit-id
+#: src/emails/server-admin-access-changed.email.tsx
+msgid "Server administrator access changed"
+msgstr "Server administrator access changed"
+
+#. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
 msgid "Suspended Workspace"
 msgstr "Suspended Workspace"
 
 #. js-lingui-explicit-id
-#: src/emails/warn-suspended-workspace.email.tsx
-#: src/emails/password-update-notify.email.tsx
 #: src/emails/clean-suspended-workspace.email.tsx
+#: src/emails/password-update-notify.email.tsx
+#: src/emails/warn-suspended-workspace.email.tsx
 msgid "Dear {userName},"
 msgstr "Dear {userName},"
 
 #. js-lingui-explicit-id
-#: src/emails/warn-suspended-workspace.email.tsx
-#: src/emails/password-update-notify.email.tsx
 #: src/emails/clean-suspended-workspace.email.tsx
+#: src/emails/password-update-notify.email.tsx
+#: src/emails/warn-suspended-workspace.email.tsx
 msgid "Hello,"
 msgstr "Hello,"
 
@@ -84,46 +99,6 @@ msgid "Accept invite"
 msgstr "Accept invite"
 
 #. js-lingui-explicit-id
-#: src/emails/send-email-verification-link.email.tsx
-msgid "Confirm your new email address"
-msgstr "Confirm your new email address"
-
-#. js-lingui-explicit-id
-#: src/emails/send-email-verification-link.email.tsx
-msgid "Confirm your email address"
-msgstr "Confirm your email address"
-
-#. js-lingui-explicit-id
-#: src/emails/send-email-verification-link.email.tsx
-msgid "Confirm new email"
-msgstr "Confirm new email"
-
-#. js-lingui-explicit-id
-#: src/emails/send-email-verification-link.email.tsx
-msgid "Verify Email"
-msgstr "Verify Email"
-
-#. js-lingui-explicit-id
-#: src/emails/password-update-notify.email.tsx
-msgid "Password updated"
-msgstr "Password updated"
-
-#. js-lingui-explicit-id
-#: src/emails/password-update-notify.email.tsx
-msgid "This is a confirmation that password for your account ({email}) was successfully changed on {formattedDate}."
-msgstr "This is a confirmation that password for your account ({email}) was successfully changed on {formattedDate}."
-
-#. js-lingui-explicit-id
-#: src/emails/password-update-notify.email.tsx
-msgid "If you did not initiate this change, please contact your workspace owner immediately."
-msgstr "If you did not initiate this change, please contact your workspace owner immediately."
-
-#. js-lingui-explicit-id
-#: src/emails/password-update-notify.email.tsx
-msgid "Connect to Twenty"
-msgstr "Connect to Twenty"
-
-#. js-lingui-explicit-id
 #: src/emails/password-reset-link.email.tsx
 msgid "Reset your password 🗝"
 msgstr "Reset your password 🗝"
@@ -149,6 +124,56 @@ msgid "This link is only valid for the next {duration}. If the link does not wor
 msgstr "This link is only valid for the next {duration}. If the link does not work, you can use the login verification link directly:"
 
 #. js-lingui-explicit-id
+#: src/emails/password-update-notify.email.tsx
+msgid "Password updated"
+msgstr "Password updated"
+
+#. js-lingui-explicit-id
+#: src/emails/password-update-notify.email.tsx
+msgid "This is a confirmation that password for your account ({email}) was successfully changed on {formattedDate}."
+msgstr "This is a confirmation that password for your account ({email}) was successfully changed on {formattedDate}."
+
+#. js-lingui-explicit-id
+#: src/emails/password-update-notify.email.tsx
+msgid "If you did not initiate this change, please contact your workspace owner immediately."
+msgstr "If you did not initiate this change, please contact your workspace owner immediately."
+
+#. js-lingui-explicit-id
+#: src/emails/password-update-notify.email.tsx
+msgid "Connect to Twenty"
+msgstr "Connect to Twenty"
+
+#. js-lingui-explicit-id
+#: src/emails/send-email-verification-link.email.tsx
+msgid "Confirm your new email address"
+msgstr "Confirm your new email address"
+
+#. js-lingui-explicit-id
+#: src/emails/send-email-verification-link.email.tsx
+msgid "Confirm your email address"
+msgstr "Confirm your email address"
+
+#. js-lingui-explicit-id
+#: src/emails/send-email-verification-link.email.tsx
+msgid "Confirm new email"
+msgstr "Confirm new email"
+
+#. js-lingui-explicit-id
+#: src/emails/send-email-verification-link.email.tsx
+msgid "Verify Email"
+msgstr "Verify Email"
+
+#. js-lingui-explicit-id
+#: src/components/WhatIsTwenty.tsx
+msgid "What is Twenty?"
+msgstr "What is Twenty?"
+
+#. js-lingui-explicit-id
+#: src/components/WhatIsTwenty.tsx
+msgid "It's a CRM, a software to help businesses manage their customer data and relationships efficiently."
+msgstr "It's a CRM, a software to help businesses manage their customer data and relationships efficiently."
+
+#. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
 msgid "Deleted Workspace"
 msgstr "Deleted Workspace"
@@ -172,16 +197,6 @@ msgstr "If you wish to use Twenty again, you can create a new workspace."
 #: src/emails/clean-suspended-workspace.email.tsx
 msgid "Create a new workspace"
 msgstr "Create a new workspace"
-
-#. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
-msgid "What is Twenty?"
-msgstr "What is Twenty?"
-
-#. js-lingui-explicit-id
-#: src/components/WhatIsTwenty.tsx
-msgid "It's a CRM, a software to help businesses manage their customer data and relationships efficiently."
-msgstr "It's a CRM, a software to help businesses manage their customer data and relationships efficiently."
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
@@ -232,3 +247,23 @@ msgstr "Twenty.com, Public Benefit Corporation"
 #: src/components/Footer.tsx
 msgid "San Francisco / Paris"
 msgstr "San Francisco / Paris"
+
+#. js-lingui-explicit-id
+#: src/emails/server-admin-access-changed.email.tsx
+msgid "serverAdminAccessChanged.summary"
+msgstr "{actorName} updated server administrator access for {targetName} ({targetEmail})."
+
+#. js-lingui-explicit-id
+#: src/emails/server-admin-access-changed.email.tsx
+msgid "serverAdminAccessChanged.fullAdmin"
+msgstr "Full admin panel access: {fullAdminStatus}"
+
+#. js-lingui-explicit-id
+#: src/emails/server-admin-access-changed.email.tsx
+msgid "serverAdminAccessChanged.warning"
+msgstr "If you did not expect this change, review your server administrators immediately."
+
+#. js-lingui-explicit-id
+#: src/emails/server-admin-access-changed.email.tsx
+msgid "serverAdminAccessChanged.impersonation"
+msgstr "Impersonation: {impersonateStatus}"
